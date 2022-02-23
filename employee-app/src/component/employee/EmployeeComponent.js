@@ -5,7 +5,7 @@ class EmployeeComponent extends Component {
     render() {
         return (
             <div className="row">
-                <EmployeeTableComponent></EmployeeTableComponent>
+                <EmployeeTableComponent dataFetch="server" totalFetch="10"></EmployeeTableComponent>
             </div>
         );
     }
